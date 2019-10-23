@@ -1,0 +1,47 @@
+body {
+    background-color: #EAC435;
+    color: #001514;
+    font-family: "Times New Roman", Times, serif;
+}
+.topheader { float: left; margin-left: 25px; font-size: 3em;}
+.toppicture {float: right;}
+nav{clear: both;
+    float: right;}
+
+h3 { background-color: #EBF5EE;}
+#maintext {
+    float: left;
+    width: 60%;
+}
+#Cricketbug{
+  width:150px;
+}
+#mainpicture {
+    float: right;
+    width: 20%;
+    padding-top: 40vh;
+}
+footer { text-align: center; clear: both;}
+header a { text-decoration: none; color: #001514;}
+nav li {
+    background-color: #EBF5EE;
+    padding: 10px;
+    display: inline;
+}
+nav li a {
+    text-decoration: none;
+    color: #001514;
+}
+@media only screen and (max-width: 600px) {
+    .topheader { float: none; margin-left: 25px; font-size: 2em; text-align: center;}
+    .toppicture {float: none; margin-left: 35%;}
+    #maintext {
+        float: none;
+        width: 100%;
+    }
+    #mainpicture {
+        float: none;
+        width: 100%;
+        padding-top: 0;
+    }
+}
